@@ -1,0 +1,181 @@
+package gdi.ws0809.test;
+
+/**
+ * Provide an implementation for SokobanTest in this class. Your game must
+ * compile and run without this class. This class is just meant to adapt the 
+ * test cases to your implementation.
+ *
+ * @author daniel, Steven Arzt
+ *
+ */
+public class SokobanTestAdapter implements SokobanTest
+{
+	
+
+	public static void init()
+	{
+	}
+
+
+	@Override
+	public String currentLevelToString()
+	{
+	}
+
+	@Override
+	public void loadLevel(File lvl) throws Exception
+	{
+	}
+	
+	@Override
+	public boolean isSolved()
+	{
+	}
+
+	@Override
+	public void moveWorker(char direction)
+	{
+	}
+
+	@Override
+	public void setLevelDir(File levelDir)
+	{
+	}
+
+	@Override
+	public void startNextLevel() throws Exception
+	{
+	}	
+
+	@Override
+	public int getStepsInCurrentLevel()
+	{
+	}
+
+	@Override
+	public void writeHighScoreFile()
+	{
+	}
+
+	@Override
+	public void setPlayerName(String name)
+	{
+	}
+
+	@Override
+	public void redoLastUndoneMove() throws Exception
+	{
+	}
+
+	@Override
+	public void undoLastMove() throws Exception
+	{
+	}
+
+	@Override
+	public void loadGame(File saveFile)
+	{
+	}
+
+	@Override
+	public void saveGame(File f)
+	{
+	}
+
+	@Override
+	public boolean isDeadlock()
+	{
+	}
+
+	@Override
+	public boolean canMoveCrate(int i, int j, char c)
+	{
+	}
+
+	@Override
+	public boolean createHighscoreEntry(String playername, int i, int j, int k) 
+	{
+	}
+
+	@Override
+	public String getBestPlayerName()
+	{
+	}
+
+	@Override
+	public int getCrateCount() 
+	{
+	}
+
+	@Override
+	public int getGoalCount() 
+	{
+	}
+
+	@Override
+	public int getHighscoreCount() 
+	{
+	}
+
+	@Override
+	public int getLevelHeight() 
+	{
+	}
+
+	@Override
+	public int getLevelWidth()
+	{
+	}
+
+	@Override
+	public int getWallCount()
+	{
+	}
+
+	@Override
+	public int getWorkerPositionX() 
+	{
+	}
+
+	@Override
+	public int getWorkerPositionY()
+	{
+	}
+
+	@Override
+	public boolean isCrateAt(int i, int j) 
+	{
+	}
+
+	@Override
+	public boolean isGoalAt(int i, int j)
+	{
+	}
+
+	@Override
+	public boolean isWallAt(int i, int j) 
+	{
+	}
+
+	@Override
+	public void clearHighscoreList() 
+	{
+	}
+
+	@Override
+	public void moveWorkerSequence(String moves) 
+	{
+	}
+
+	@Override
+	public boolean checkWallBounding ()
+	{
+	}
+
+	@Override
+	public String solveLevel (int maxTime)
+	{
+	}
+	
+}
+
